@@ -1,6 +1,6 @@
 import {Mathe} from './mathe';
 import {describe, expect, test} from '@jest/globals';
 
-test('[1,2,3,4] => 4', () => {
-    expect(Mathe.max([1,2,3,4])).toBe(4);
+test('[1,2,3,4] => 1', () => {
+    expect(Mathe.min([1,2,3,4])).toBe(1);
 });
